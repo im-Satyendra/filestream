@@ -1,9 +1,9 @@
 import os
 
 class Config:
-    API_ID = int( os.getenv("api_id","1234") )
-    API_HASH = os.getenv("api_hash","21ab7cb0a453b5e60016dc7bbeb71cb")
-    CHANNEL = int( os.getenv("channel_files_chat_id","-1001601419165") )
-    CHANNEL_USERNAME = os.getenv("channel_username","UserLandapp")
-    TOKEN = os.getenv("token","1408542385:AAEatXPbSubsYmlW8kPTUAr")
-    DOMAIN  = os.getenv("domain","http://localhost")
+    API_ID = 3325855
+    API_HASH = "a0ee8fbebe1950b9291c9e22da4a1450"
+    CHANNEL = -1001783123841
+    CHANNEL_USERNAME = "t24Talkies"
+    TOKEN = "5125608381:AAHvqaloaaUaT1DNUa2rYcjQel_GC3RwCLs"
+    DOMAIN  = "http://jeepsaty.pages.dev"
