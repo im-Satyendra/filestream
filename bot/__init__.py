@@ -25,7 +25,7 @@ def get_file_name(message):
 @client.on(events.NewMessage)
 async def download(event):
     
-        if (pv := event.is_private) or event.is_group :
+        if (pv != event.is_private) or event.is_group :
             if pv:
                 try:
                     user = await event.client(functions.channels.GetParticipantRequest(
